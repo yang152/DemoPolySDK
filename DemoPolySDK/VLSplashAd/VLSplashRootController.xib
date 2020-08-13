@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VLSplashRootController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRn-Om-ffO">
+                    <rect key="frame" x="0.0" y="100" width="414" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="14w-ZJ-ddg"/>
+                    </constraints>
+                    <state key="normal" title="直接加载开屏广告"/>
+                    <connections>
+                        <action selector="btn_loadAndShowSplash:" destination="-1" eventType="touchUpInside" id="oZC-e2-UeJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iX-Sz-wJI">
+                    <rect key="frame" x="0.0" y="250" width="414" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="v9b-S4-kGy"/>
+                    </constraints>
+                    <state key="normal" title="先load再加载开屏广告"/>
+                    <connections>
+                        <action selector="btn_loadSplash:" destination="-1" eventType="touchUpInside" id="qyF-EO-B2I"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJx-Jp-Gn0">
+                    <rect key="frame" x="0.0" y="400" width="414" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.86666666670000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="on7-PM-IXZ"/>
+                    </constraints>
+                    <state key="normal" title="自定义开屏页面加载开屏广告"/>
+                    <connections>
+                        <action selector="btn_autoDefinSplash:" destination="-1" eventType="touchUpInside" id="gzv-6u-fa8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hJx-Jp-Gn0" secondAttribute="trailing" id="3z4-UF-jaz"/>
+                <constraint firstItem="zRn-Om-ffO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="B9A-VY-hRc"/>
+                <constraint firstItem="0iX-Sz-wJI" firstAttribute="top" secondItem="zRn-Om-ffO" secondAttribute="bottom" constant="100" id="FGB-06-YgX"/>
+                <constraint firstItem="0iX-Sz-wJI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ox6-IO-aAw"/>
+                <constraint firstAttribute="trailing" secondItem="0iX-Sz-wJI" secondAttribute="trailing" id="PHf-jD-RTD"/>
+                <constraint firstItem="hJx-Jp-Gn0" firstAttribute="top" secondItem="0iX-Sz-wJI" secondAttribute="bottom" constant="100" id="aKV-PN-dqc"/>
+                <constraint firstAttribute="trailing" secondItem="zRn-Om-ffO" secondAttribute="trailing" id="iHi-iU-hw7"/>
+                <constraint firstItem="zRn-Om-ffO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="ijR-i0-iy7"/>
+                <constraint firstItem="hJx-Jp-Gn0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uPl-YH-HqZ"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="110"/>
+        </view>
+    </objects>
+</document>
