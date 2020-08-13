@@ -23,7 +23,7 @@
     
     VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
     splashAd.delegate = self;
-    [self.splashAd loadAd];
+    [splashAd loadAd];
     self.splashAd = splashAd;
     
     return YES;

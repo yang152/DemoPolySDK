@@ -8,10 +8,12 @@
 
 #import "VLSplashRootController.h"
 #import <VLionADSDK/VLNADSDK.h>
+#import "SplashViewController.h"
 
 @interface VLSplashRootController ()<VLNSplashAdDelegate>
 
 @property (nonatomic, strong) VLNSplashAd *splashAd;
+
 
 @end
 
@@ -21,27 +23,35 @@
     [super viewDidLoad];
     
     self.title = @"开屏广告";
-}
-
-#pragma mark --开屏类型事件
-- (IBAction)btn_loadAndShowSplash:(id)sender {
     
 }
 
+#pragma mark --开屏类型事件
+/// 直接加载开屏广告
+- (IBAction)btn_loadAndShowSplash:(id)sender {
+    VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
+    splashAd.backgroundImage = [UIImage imageNamed:@"vlSplashBj.jpg"];
+    [splashAd loadAdAndShowInWindow:self.view.window];
+    self.splashAd = splashAd;
+}
+// 先加载开屏广告，加载回调成功后，然后可以在适当时机去展示
 - (IBAction)btn_loadSplash:(UIButton *)sender {
     VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
     splashAd.delegate = self;
-    [self.splashAd loadAd];
+    [splashAd loadAd];
     self.splashAd = splashAd;
 }
 
+/// 在自定义页面去加载开屏广告
 - (IBAction)btn_autoDefinSplash:(UIButton *)sender {
-    [self.splashAd showAdInWindow:self.view.window];
+    SplashViewController *vc = [SplashViewController new];
+    [self.navigationController pushViewController:vc animated:NO];
 }
 
 #pragma mark --VLNSplashAdDelegate
 - (void)vl_splashAdDidLoad:(VLNSplashAd *)splashAd {
     NSLog(@"VLNSplashAd didLoad");
+    [splashAd showAdInWindow:self.view.window];
 }
 
 - (void)vl_splashAd:(VLNSplashAd *)splashAd didFailWithError:(NSError *)error {

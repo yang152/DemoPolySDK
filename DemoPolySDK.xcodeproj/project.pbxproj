@@ -19,6 +19,10 @@
 		7D50B97E24E50B00003365BA /* vlRootCellRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D50B97D24E50B00003365BA /* vlRootCellRightArrow.png */; };
 		7D50B98324E50C66003365BA /* VLSplashRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D50B98124E50C66003365BA /* VLSplashRootController.m */; };
 		7D50B98424E50C66003365BA /* VLSplashRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D50B98224E50C66003365BA /* VLSplashRootController.xib */; };
+		7DEDAE5824E51F8D00A120CF /* vlSplashBj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5724E51F8D00A120CF /* vlSplashBj.jpg */; };
+		7DEDAE5C24E5202100A120CF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5A24E5202100A120CF /* SplashViewController.m */; };
+		7DEDAE5D24E5202100A120CF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5B24E5202100A120CF /* SplashViewController.xib */; };
+		7DEDAE5F24E5210A00A120CF /* bottomImg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5E24E5210A00A120CF /* bottomImg.jpeg */; };
 		B6B76A07BADE4C5F345B0A69 /* Pods_DemoPolySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D359E5B6E5C88D2FF6009E9 /* Pods_DemoPolySDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +48,11 @@
 		7D50B98024E50C66003365BA /* VLSplashRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLSplashRootController.h; sourceTree = "<group>"; };
 		7D50B98124E50C66003365BA /* VLSplashRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLSplashRootController.m; sourceTree = "<group>"; };
 		7D50B98224E50C66003365BA /* VLSplashRootController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLSplashRootController.xib; sourceTree = "<group>"; };
+		7DEDAE5724E51F8D00A120CF /* vlSplashBj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vlSplashBj.jpg; sourceTree = "<group>"; };
+		7DEDAE5924E5202100A120CF /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		7DEDAE5A24E5202100A120CF /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		7DEDAE5B24E5202100A120CF /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		7DEDAE5E24E5210A00A120CF /* bottomImg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottomImg.jpeg; sourceTree = "<group>"; };
 		FC756559E3D59EB8FAC1901E /* Pods-DemoPolySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPolySDK.release.xcconfig"; path = "Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +128,8 @@
 		7D50B97C24E50A16003365BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7DEDAE5724E51F8D00A120CF /* vlSplashBj.jpg */,
+				7DEDAE5E24E5210A00A120CF /* bottomImg.jpeg */,
 				7D50B97D24E50B00003365BA /* vlRootCellRightArrow.png */,
 			);
 			path = Resources;
@@ -130,6 +141,9 @@
 				7D50B98024E50C66003365BA /* VLSplashRootController.h */,
 				7D50B98124E50C66003365BA /* VLSplashRootController.m */,
 				7D50B98224E50C66003365BA /* VLSplashRootController.xib */,
+				7DEDAE5924E5202100A120CF /* SplashViewController.h */,
+				7DEDAE5A24E5202100A120CF /* SplashViewController.m */,
+				7DEDAE5B24E5202100A120CF /* SplashViewController.xib */,
 			);
 			path = VLSplashAd;
 			sourceTree = "<group>";
@@ -203,6 +217,9 @@
 			files = (
 				7D50B98424E50C66003365BA /* VLSplashRootController.xib in Resources */,
 				7D50B97B24E504BE003365BA /* VLRootViewCell.xib in Resources */,
+				7DEDAE5824E51F8D00A120CF /* vlSplashBj.jpg in Resources */,
+				7DEDAE5D24E5202100A120CF /* SplashViewController.xib in Resources */,
+				7DEDAE5F24E5210A00A120CF /* bottomImg.jpeg in Resources */,
 				7D50B97E24E50B00003365BA /* vlRootCellRightArrow.png in Resources */,
 				7D50B95924E3CBCD003365BA /* LaunchScreen.storyboard in Resources */,
 				7D50B95624E3CBCD003365BA /* Assets.xcassets in Resources */,
@@ -243,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D50B97224E5036B003365BA /* VLRootViewController.m in Sources */,
+				7DEDAE5C24E5202100A120CF /* SplashViewController.m in Sources */,
 				7D50B97624E503CA003365BA /* VLBaseViewController.m in Sources */,
 				7D50B98324E50C66003365BA /* VLSplashRootController.m in Sources */,
 				7D50B97A24E504BE003365BA /* VLRootViewCell.m in Sources */,
