@@ -10,6 +10,12 @@
 #import "VLRootViewCell.h"
 
 #import "VLSplashRootController.h"
+#import "VLBannerViewController.h"
+#import "VLInterstitialAdController.h"
+#import "VLRewardVideoAdController.h"
+#import "VLNativeRootViewController.h"
+#import "DrawNativeViewController.h"
+#import "VLNContentViewController.h"
 
 @interface VLRootViewController ()
 <UITableViewDelegate, UITableViewDataSource>
@@ -73,6 +79,48 @@
                 [self.navigationController pushViewController:vc animated:YES];
             }
             break;
+            
+        case VLPolyAdSDKTypeBanner:
+        {
+            VLBannerViewController *vc = [VLBannerViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+            case VLPolyAdSDKTypeInterstitial:
+        {
+            VLInterstitialAdController *vc = [VLInterstitialAdController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+            case VLPolyAdSDKTypeRewardVideo:
+        {
+            VLRewardVideoAdController *vc = [VLRewardVideoAdController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+            case VLPolyAdSDKTypeNative:
+        {
+            VLNativeRootViewController *vc = [VLNativeRootViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+            case VLPolyAdSDKTypeDraw:
+        {
+            DrawNativeViewController *vc = [DrawNativeViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+            case VLPolyAdSDKTypeContent:
+        {
+            VLNContentViewController *vc = [VLNContentViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
             
         default:
             break;

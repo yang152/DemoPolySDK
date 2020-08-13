@@ -16,8 +16,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drx-X0-FhZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drx-X0-FhZ">
+                        <rect key="frame" x="20" y="0.0" width="300" height="50"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                         <color key="textColor" red="1" green="0.70196078429999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                 <constraints>
                     <constraint firstItem="drx-X0-FhZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4Qu-ng-dKY"/>
                     <constraint firstAttribute="trailing" secondItem="drx-X0-FhZ" secondAttribute="trailing" id="Tn2-hS-M4c"/>
-                    <constraint firstItem="drx-X0-FhZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="c42-nV-kHT"/>
+                    <constraint firstItem="drx-X0-FhZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="c42-nV-kHT"/>
                     <constraint firstItem="RAX-nW-eb3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oO4-JT-K7w"/>
                     <constraint firstAttribute="bottom" secondItem="drx-X0-FhZ" secondAttribute="bottom" id="taH-6S-EvE"/>
                     <constraint firstAttribute="trailing" secondItem="RAX-nW-eb3" secondAttribute="trailing" constant="12" id="v1d-oQ-C4a"/>

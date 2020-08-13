@@ -21,10 +21,10 @@
     
     [[VLNAdSDKManager defaultManager] setAppID:@"30164"];
     
-    VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
-    splashAd.delegate = self;
-    [splashAd loadAd];
-    self.splashAd = splashAd;
+//    VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
+//    splashAd.delegate = self;
+//    [splashAd loadAd];
+//    self.splashAd = splashAd;
     
     return YES;
 }

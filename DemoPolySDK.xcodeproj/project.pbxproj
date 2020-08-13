@@ -23,6 +23,27 @@
 		7DEDAE5C24E5202100A120CF /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5A24E5202100A120CF /* SplashViewController.m */; };
 		7DEDAE5D24E5202100A120CF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5B24E5202100A120CF /* SplashViewController.xib */; };
 		7DEDAE5F24E5210A00A120CF /* bottomImg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE5E24E5210A00A120CF /* bottomImg.jpeg */; };
+		7DEDAE6424E5259000A120CF /* VLBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6224E5259000A120CF /* VLBannerViewController.m */; };
+		7DEDAE6524E5259000A120CF /* VLBannerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6324E5259000A120CF /* VLBannerViewController.xib */; };
+		7DEDAE6A24E527A000A120CF /* VLInterstitialAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6824E527A000A120CF /* VLInterstitialAdController.m */; };
+		7DEDAE6B24E527A000A120CF /* VLInterstitialAdController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6924E527A000A120CF /* VLInterstitialAdController.xib */; };
+		7DEDAE7024E52BA200A120CF /* VLRewardVideoAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6E24E52BA200A120CF /* VLRewardVideoAdController.m */; };
+		7DEDAE7124E52BA200A120CF /* VLRewardVideoAdController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE6F24E52BA200A120CF /* VLRewardVideoAdController.xib */; };
+		7DEDAE7524E52F3800A120CF /* VLNativeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7424E52F3800A120CF /* VLNativeRootViewController.m */; };
+		7DEDAE7724E52FE200A120CF /* VLNativeRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7624E52FE200A120CF /* VLNativeRootViewController.xib */; };
+		7DEDAE8324E5308900A120CF /* NativeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7A24E5308900A120CF /* NativeHelper.m */; };
+		7DEDAE8424E5308900A120CF /* NativeDemoTableViewListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7B24E5308900A120CF /* NativeDemoTableViewListVC.m */; };
+		7DEDAE8524E5308900A120CF /* NativeNewsNormalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7E24E5308900A120CF /* NativeNewsNormalModel.m */; };
+		7DEDAE8624E5308900A120CF /* NativeDemoTableViewListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE7F24E5308900A120CF /* NativeDemoTableViewListVC.xib */; };
+		7DEDAE8724E5308900A120CF /* nativeNews.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE8024E5308900A120CF /* nativeNews.json */; };
+		7DEDAE8824E5308900A120CF /* NativeNewsNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE8224E5308900A120CF /* NativeNewsNormalCell.m */; };
+		7DEDAE8C24E530CA00A120CF /* VLNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE8A24E530CA00A120CF /* VLNativeViewController.m */; };
+		7DEDAE8D24E530CA00A120CF /* VLNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE8B24E530CA00A120CF /* VLNativeViewController.xib */; };
+		7DEDAE9424E5333100A120CF /* DrawAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE8F24E5333000A120CF /* DrawAdCell.m */; };
+		7DEDAE9524E5333100A120CF /* DrawNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE9224E5333100A120CF /* DrawNativeViewController.m */; };
+		7DEDAE9624E5333100A120CF /* DrawNativeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE9324E5333100A120CF /* DrawNativeViewController.xib */; };
+		7DEDAE9B24E533C000A120CF /* VLNContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DEDAE9924E533C000A120CF /* VLNContentViewController.xib */; };
+		7DEDAE9C24E533C000A120CF /* VLNContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEDAE9A24E533C000A120CF /* VLNContentViewController.m */; };
 		B6B76A07BADE4C5F345B0A69 /* Pods_DemoPolySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D359E5B6E5C88D2FF6009E9 /* Pods_DemoPolySDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +74,39 @@
 		7DEDAE5A24E5202100A120CF /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		7DEDAE5B24E5202100A120CF /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		7DEDAE5E24E5210A00A120CF /* bottomImg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottomImg.jpeg; sourceTree = "<group>"; };
+		7DEDAE6124E5259000A120CF /* VLBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLBannerViewController.h; sourceTree = "<group>"; };
+		7DEDAE6224E5259000A120CF /* VLBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLBannerViewController.m; sourceTree = "<group>"; };
+		7DEDAE6324E5259000A120CF /* VLBannerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLBannerViewController.xib; sourceTree = "<group>"; };
+		7DEDAE6724E527A000A120CF /* VLInterstitialAdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLInterstitialAdController.h; sourceTree = "<group>"; };
+		7DEDAE6824E527A000A120CF /* VLInterstitialAdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLInterstitialAdController.m; sourceTree = "<group>"; };
+		7DEDAE6924E527A000A120CF /* VLInterstitialAdController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLInterstitialAdController.xib; sourceTree = "<group>"; };
+		7DEDAE6D24E52BA200A120CF /* VLRewardVideoAdController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLRewardVideoAdController.h; sourceTree = "<group>"; };
+		7DEDAE6E24E52BA200A120CF /* VLRewardVideoAdController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLRewardVideoAdController.m; sourceTree = "<group>"; };
+		7DEDAE6F24E52BA200A120CF /* VLRewardVideoAdController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLRewardVideoAdController.xib; sourceTree = "<group>"; };
+		7DEDAE7324E52F3800A120CF /* VLNativeRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNativeRootViewController.h; sourceTree = "<group>"; };
+		7DEDAE7424E52F3800A120CF /* VLNativeRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNativeRootViewController.m; sourceTree = "<group>"; };
+		7DEDAE7624E52FE200A120CF /* VLNativeRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLNativeRootViewController.xib; sourceTree = "<group>"; };
+		7DEDAE7924E5308900A120CF /* NativeNewsNormalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNewsNormalModel.h; sourceTree = "<group>"; };
+		7DEDAE7A24E5308900A120CF /* NativeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeHelper.m; sourceTree = "<group>"; };
+		7DEDAE7B24E5308900A120CF /* NativeDemoTableViewListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeDemoTableViewListVC.m; sourceTree = "<group>"; };
+		7DEDAE7C24E5308900A120CF /* NativeNewsNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeNewsNormalCell.h; sourceTree = "<group>"; };
+		7DEDAE7D24E5308900A120CF /* NativeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeHelper.h; sourceTree = "<group>"; };
+		7DEDAE7E24E5308900A120CF /* NativeNewsNormalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeNewsNormalModel.m; sourceTree = "<group>"; };
+		7DEDAE7F24E5308900A120CF /* NativeDemoTableViewListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeDemoTableViewListVC.xib; sourceTree = "<group>"; };
+		7DEDAE8024E5308900A120CF /* nativeNews.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nativeNews.json; sourceTree = "<group>"; };
+		7DEDAE8124E5308900A120CF /* NativeDemoTableViewListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDemoTableViewListVC.h; sourceTree = "<group>"; };
+		7DEDAE8224E5308900A120CF /* NativeNewsNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeNewsNormalCell.m; sourceTree = "<group>"; };
+		7DEDAE8924E530CA00A120CF /* VLNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNativeViewController.h; sourceTree = "<group>"; };
+		7DEDAE8A24E530CA00A120CF /* VLNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNativeViewController.m; sourceTree = "<group>"; };
+		7DEDAE8B24E530CA00A120CF /* VLNativeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLNativeViewController.xib; sourceTree = "<group>"; };
+		7DEDAE8F24E5333000A120CF /* DrawAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawAdCell.m; sourceTree = "<group>"; };
+		7DEDAE9024E5333100A120CF /* DrawAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawAdCell.h; sourceTree = "<group>"; };
+		7DEDAE9124E5333100A120CF /* DrawNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawNativeViewController.h; sourceTree = "<group>"; };
+		7DEDAE9224E5333100A120CF /* DrawNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawNativeViewController.m; sourceTree = "<group>"; };
+		7DEDAE9324E5333100A120CF /* DrawNativeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawNativeViewController.xib; sourceTree = "<group>"; };
+		7DEDAE9824E533C000A120CF /* VLNContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLNContentViewController.h; sourceTree = "<group>"; };
+		7DEDAE9924E533C000A120CF /* VLNContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VLNContentViewController.xib; sourceTree = "<group>"; };
+		7DEDAE9A24E533C000A120CF /* VLNContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLNContentViewController.m; sourceTree = "<group>"; };
 		FC756559E3D59EB8FAC1901E /* Pods-DemoPolySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPolySDK.release.xcconfig"; path = "Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +153,12 @@
 			children = (
 				7D50B96D24E5036B003365BA /* RootHandle */,
 				7D50B97F24E50C4C003365BA /* VLSplashAd */,
+				7DEDAE6024E5257E00A120CF /* VLBannerView */,
+				7DEDAE6624E5278F00A120CF /* VLInterstitialAd */,
+				7DEDAE6C24E52B8600A120CF /* VLRewardVideoAd */,
+				7DEDAE7224E52F2300A120CF /* VLNativeAd */,
+				7DEDAE8E24E5332400A120CF /* VLDrawAd */,
+				7DEDAE9724E533B400A120CF /* VLContent */,
 				7D50B95224E3CBC7003365BA /* Main.storyboard */,
 				7D50B95524E3CBCD003365BA /* Assets.xcassets */,
 				7D50B95724E3CBCD003365BA /* LaunchScreen.storyboard */,
@@ -146,6 +206,89 @@
 				7DEDAE5B24E5202100A120CF /* SplashViewController.xib */,
 			);
 			path = VLSplashAd;
+			sourceTree = "<group>";
+		};
+		7DEDAE6024E5257E00A120CF /* VLBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE6124E5259000A120CF /* VLBannerViewController.h */,
+				7DEDAE6224E5259000A120CF /* VLBannerViewController.m */,
+				7DEDAE6324E5259000A120CF /* VLBannerViewController.xib */,
+			);
+			path = VLBannerView;
+			sourceTree = "<group>";
+		};
+		7DEDAE6624E5278F00A120CF /* VLInterstitialAd */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE6724E527A000A120CF /* VLInterstitialAdController.h */,
+				7DEDAE6824E527A000A120CF /* VLInterstitialAdController.m */,
+				7DEDAE6924E527A000A120CF /* VLInterstitialAdController.xib */,
+			);
+			path = VLInterstitialAd;
+			sourceTree = "<group>";
+		};
+		7DEDAE6C24E52B8600A120CF /* VLRewardVideoAd */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE6D24E52BA200A120CF /* VLRewardVideoAdController.h */,
+				7DEDAE6E24E52BA200A120CF /* VLRewardVideoAdController.m */,
+				7DEDAE6F24E52BA200A120CF /* VLRewardVideoAdController.xib */,
+			);
+			path = VLRewardVideoAd;
+			sourceTree = "<group>";
+		};
+		7DEDAE7224E52F2300A120CF /* VLNativeAd */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE7824E5308900A120CF /* NativeDemos */,
+				7DEDAE7324E52F3800A120CF /* VLNativeRootViewController.h */,
+				7DEDAE7424E52F3800A120CF /* VLNativeRootViewController.m */,
+				7DEDAE7624E52FE200A120CF /* VLNativeRootViewController.xib */,
+				7DEDAE8924E530CA00A120CF /* VLNativeViewController.h */,
+				7DEDAE8A24E530CA00A120CF /* VLNativeViewController.m */,
+				7DEDAE8B24E530CA00A120CF /* VLNativeViewController.xib */,
+			);
+			path = VLNativeAd;
+			sourceTree = "<group>";
+		};
+		7DEDAE7824E5308900A120CF /* NativeDemos */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE8124E5308900A120CF /* NativeDemoTableViewListVC.h */,
+				7DEDAE7B24E5308900A120CF /* NativeDemoTableViewListVC.m */,
+				7DEDAE7F24E5308900A120CF /* NativeDemoTableViewListVC.xib */,
+				7DEDAE7924E5308900A120CF /* NativeNewsNormalModel.h */,
+				7DEDAE7E24E5308900A120CF /* NativeNewsNormalModel.m */,
+				7DEDAE7D24E5308900A120CF /* NativeHelper.h */,
+				7DEDAE7A24E5308900A120CF /* NativeHelper.m */,
+				7DEDAE8024E5308900A120CF /* nativeNews.json */,
+				7DEDAE7C24E5308900A120CF /* NativeNewsNormalCell.h */,
+				7DEDAE8224E5308900A120CF /* NativeNewsNormalCell.m */,
+			);
+			path = NativeDemos;
+			sourceTree = "<group>";
+		};
+		7DEDAE8E24E5332400A120CF /* VLDrawAd */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE9024E5333100A120CF /* DrawAdCell.h */,
+				7DEDAE8F24E5333000A120CF /* DrawAdCell.m */,
+				7DEDAE9124E5333100A120CF /* DrawNativeViewController.h */,
+				7DEDAE9224E5333100A120CF /* DrawNativeViewController.m */,
+				7DEDAE9324E5333100A120CF /* DrawNativeViewController.xib */,
+			);
+			path = VLDrawAd;
+			sourceTree = "<group>";
+		};
+		7DEDAE9724E533B400A120CF /* VLContent */ = {
+			isa = PBXGroup;
+			children = (
+				7DEDAE9824E533C000A120CF /* VLNContentViewController.h */,
+				7DEDAE9A24E533C000A120CF /* VLNContentViewController.m */,
+				7DEDAE9924E533C000A120CF /* VLNContentViewController.xib */,
+			);
+			path = VLContent;
 			sourceTree = "<group>";
 		};
 		FF53A7153F016DC1C4A2FF7B /* Pods */ = {
@@ -217,13 +360,22 @@
 			files = (
 				7D50B98424E50C66003365BA /* VLSplashRootController.xib in Resources */,
 				7D50B97B24E504BE003365BA /* VLRootViewCell.xib in Resources */,
+				7DEDAE9624E5333100A120CF /* DrawNativeViewController.xib in Resources */,
 				7DEDAE5824E51F8D00A120CF /* vlSplashBj.jpg in Resources */,
+				7DEDAE8D24E530CA00A120CF /* VLNativeViewController.xib in Resources */,
+				7DEDAE6B24E527A000A120CF /* VLInterstitialAdController.xib in Resources */,
+				7DEDAE7724E52FE200A120CF /* VLNativeRootViewController.xib in Resources */,
 				7DEDAE5D24E5202100A120CF /* SplashViewController.xib in Resources */,
 				7DEDAE5F24E5210A00A120CF /* bottomImg.jpeg in Resources */,
 				7D50B97E24E50B00003365BA /* vlRootCellRightArrow.png in Resources */,
+				7DEDAE8624E5308900A120CF /* NativeDemoTableViewListVC.xib in Resources */,
+				7DEDAE6524E5259000A120CF /* VLBannerViewController.xib in Resources */,
 				7D50B95924E3CBCD003365BA /* LaunchScreen.storyboard in Resources */,
+				7DEDAE8724E5308900A120CF /* nativeNews.json in Resources */,
+				7DEDAE7124E52BA200A120CF /* VLRewardVideoAdController.xib in Resources */,
 				7D50B95624E3CBCD003365BA /* Assets.xcassets in Resources */,
 				7D50B95424E3CBC7003365BA /* Main.storyboard in Resources */,
+				7DEDAE9B24E533C000A120CF /* VLNContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +412,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D50B97224E5036B003365BA /* VLRootViewController.m in Sources */,
+				7DEDAE8424E5308900A120CF /* NativeDemoTableViewListVC.m in Sources */,
+				7DEDAE7024E52BA200A120CF /* VLRewardVideoAdController.m in Sources */,
 				7DEDAE5C24E5202100A120CF /* SplashViewController.m in Sources */,
+				7DEDAE6424E5259000A120CF /* VLBannerViewController.m in Sources */,
+				7DEDAE8324E5308900A120CF /* NativeHelper.m in Sources */,
+				7DEDAE7524E52F3800A120CF /* VLNativeRootViewController.m in Sources */,
+				7DEDAE9524E5333100A120CF /* DrawNativeViewController.m in Sources */,
 				7D50B97624E503CA003365BA /* VLBaseViewController.m in Sources */,
+				7DEDAE9424E5333100A120CF /* DrawAdCell.m in Sources */,
+				7DEDAE6A24E527A000A120CF /* VLInterstitialAdController.m in Sources */,
 				7D50B98324E50C66003365BA /* VLSplashRootController.m in Sources */,
+				7DEDAE8524E5308900A120CF /* NativeNewsNormalModel.m in Sources */,
+				7DEDAE9C24E533C000A120CF /* VLNContentViewController.m in Sources */,
+				7DEDAE8C24E530CA00A120CF /* VLNativeViewController.m in Sources */,
+				7DEDAE8824E5308900A120CF /* NativeNewsNormalCell.m in Sources */,
 				7D50B97A24E504BE003365BA /* VLRootViewCell.m in Sources */,
 				7D50B95C24E3CBCD003365BA /* main.m in Sources */,
 				7D50B97324E5036B003365BA /* AppDelegate.m in Sources */,
