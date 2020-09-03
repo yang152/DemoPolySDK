@@ -5,18 +5,18 @@ target 'DemoPolySDK' do
   use_frameworks!
 
   pod 'VLionAdSDKPoly/VLionADSDKGDTAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKBDAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKIMBAdapter'
+#  pod 'VLionAdSDKPoly/VLionADSDKBDAdapter'
+#  pod 'VLionAdSDKPoly/VLionADSDKIMBAdapter'
   pod 'VLionAdSDKPoly/VLionADSDKKSAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKSGBAdapter'
+#  pod 'VLionAdSDKPoly/VLionADSDKSGBAdapter'
   pod 'VLionAdSDKPoly/VLionADSDKBUAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKMGTAdapter'
-
+#  pod 'VLionAdSDKPoly/VLionADSDKMGTAdapter'
+#
   pod 'VLionAdSDKPoly/RSGameVlionAd'
   pod 'VLionAdSDKPoly/VLionNewsSDK'
-  
-  pod 'MBProgressHUD', '~> 1.2.0'
-  pod 'SDWebImage', '~> 5.8.4'
+
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
   pod 'Toast'
 
 end

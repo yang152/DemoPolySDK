@@ -23,7 +23,7 @@
                                                       adSize:adSize
                                                     delegate:self
                                           rootViewController:self];
-    self.vlBannerView.frame = CGRectMake(0, 100, adSize.width, adSize.height);
+    self.vlBannerView.frame = CGRectMake(0, 200, adSize.width, adSize.height);
     [self.view addSubview:self.vlBannerView];
     
     [self.vlBannerView loadBannerView];
