@@ -16,5 +16,7 @@ target 'DemoPolySDK' do
   pod 'VLionAdSDKPoly/VLionNewsSDK'
   
   pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'SDWebImage', '~> 5.8.4'
+  pod 'Toast'
 
 end

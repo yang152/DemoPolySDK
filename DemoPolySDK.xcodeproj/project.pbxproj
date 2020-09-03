@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D053E122500903600ED971D /* VLGameRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D053E102500903600ED971D /* VLGameRootViewController.m */; };
+		7D053E132500903600ED971D /* VLGameRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D053E112500903600ED971D /* VLGameRootViewController.xib */; };
+		7D053E172500947E00ED971D /* VLGameAutoDefineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D053E152500947E00ED971D /* VLGameAutoDefineController.m */; };
+		7D053E182500947E00ED971D /* VLGameAutoDefineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D053E162500947E00ED971D /* VLGameAutoDefineController.xib */; };
+		7D053E1C2500959200ED971D /* VLNewsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D053E1A2500959200ED971D /* VLNewsRootViewController.m */; };
+		7D053E1D2500959200ED971D /* VLNewsRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D053E1B2500959200ED971D /* VLNewsRootViewController.xib */; };
+		7D328A572500981B0043E147 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D328A502500981A0043E147 /* NewsViewController.m */; };
+		7D328A582500981B0043E147 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D328A522500981A0043E147 /* NewsViewController.xib */; };
+		7D328A592500981B0043E147 /* NewsOutAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D328A552500981B0043E147 /* NewsOutAdViewController.m */; };
+		7D328A5A2500981B0043E147 /* NewsOutAdViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D328A562500981B0043E147 /* NewsOutAdViewController2.m */; };
 		7D50B95424E3CBC7003365BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D50B95224E3CBC7003365BA /* Main.storyboard */; };
 		7D50B95624E3CBCD003365BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D50B95524E3CBCD003365BA /* Assets.xcassets */; };
 		7D50B95924E3CBCD003365BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D50B95724E3CBCD003365BA /* LaunchScreen.storyboard */; };
@@ -50,6 +60,22 @@
 /* Begin PBXFileReference section */
 		6D359E5B6E5C88D2FF6009E9 /* Pods_DemoPolySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoPolySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C79ABD88181BCBF63E43D9B /* Pods-DemoPolySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPolySDK.debug.xcconfig"; path = "Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		7D053E0F2500903600ED971D /* VLGameRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLGameRootViewController.h; sourceTree = "<group>"; };
+		7D053E102500903600ED971D /* VLGameRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLGameRootViewController.m; sourceTree = "<group>"; };
+		7D053E112500903600ED971D /* VLGameRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLGameRootViewController.xib; sourceTree = "<group>"; };
+		7D053E142500947E00ED971D /* VLGameAutoDefineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLGameAutoDefineController.h; sourceTree = "<group>"; };
+		7D053E152500947E00ED971D /* VLGameAutoDefineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLGameAutoDefineController.m; sourceTree = "<group>"; };
+		7D053E162500947E00ED971D /* VLGameAutoDefineController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLGameAutoDefineController.xib; sourceTree = "<group>"; };
+		7D053E192500959200ED971D /* VLNewsRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLNewsRootViewController.h; sourceTree = "<group>"; };
+		7D053E1A2500959200ED971D /* VLNewsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLNewsRootViewController.m; sourceTree = "<group>"; };
+		7D053E1B2500959200ED971D /* VLNewsRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VLNewsRootViewController.xib; sourceTree = "<group>"; };
+		7D328A502500981A0043E147 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		7D328A512500981A0043E147 /* NewsOutAdViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsOutAdViewController2.h; sourceTree = "<group>"; };
+		7D328A522500981A0043E147 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		7D328A532500981B0043E147 /* NewsOutAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsOutAdViewController.h; sourceTree = "<group>"; };
+		7D328A542500981B0043E147 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		7D328A552500981B0043E147 /* NewsOutAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsOutAdViewController.m; sourceTree = "<group>"; };
+		7D328A562500981B0043E147 /* NewsOutAdViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsOutAdViewController2.m; sourceTree = "<group>"; };
 		7D50B94624E3CBC7003365BA /* DemoPolySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPolySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D50B95324E3CBC7003365BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D50B95524E3CBCD003365BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,6 +156,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7D053E0D25008FC600ED971D /* VlionGame */ = {
+			isa = PBXGroup;
+			children = (
+				7D053E0F2500903600ED971D /* VLGameRootViewController.h */,
+				7D053E102500903600ED971D /* VLGameRootViewController.m */,
+				7D053E112500903600ED971D /* VLGameRootViewController.xib */,
+				7D053E142500947E00ED971D /* VLGameAutoDefineController.h */,
+				7D053E152500947E00ED971D /* VLGameAutoDefineController.m */,
+				7D053E162500947E00ED971D /* VLGameAutoDefineController.xib */,
+			);
+			path = VlionGame;
+			sourceTree = "<group>";
+		};
+		7D053E0E25008FC700ED971D /* VlionNews */ = {
+			isa = PBXGroup;
+			children = (
+				7D053E192500959200ED971D /* VLNewsRootViewController.h */,
+				7D053E1A2500959200ED971D /* VLNewsRootViewController.m */,
+				7D053E1B2500959200ED971D /* VLNewsRootViewController.xib */,
+				7D328A532500981B0043E147 /* NewsOutAdViewController.h */,
+				7D328A552500981B0043E147 /* NewsOutAdViewController.m */,
+				7D328A512500981A0043E147 /* NewsOutAdViewController2.h */,
+				7D328A562500981B0043E147 /* NewsOutAdViewController2.m */,
+				7D328A542500981B0043E147 /* NewsViewController.h */,
+				7D328A502500981A0043E147 /* NewsViewController.m */,
+				7D328A522500981A0043E147 /* NewsViewController.xib */,
+			);
+			path = VlionNews;
+			sourceTree = "<group>";
+		};
 		7D50B93D24E3CBC7003365BA = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +215,8 @@
 				7DEDAE7224E52F2300A120CF /* VLNativeAd */,
 				7DEDAE8E24E5332400A120CF /* VLDrawAd */,
 				7DEDAE9724E533B400A120CF /* VLContent */,
+				7D053E0D25008FC600ED971D /* VlionGame */,
+				7D053E0E25008FC700ED971D /* VlionNews */,
 				7D50B95224E3CBC7003365BA /* Main.storyboard */,
 				7D50B95524E3CBCD003365BA /* Assets.xcassets */,
 				7D50B95724E3CBCD003365BA /* LaunchScreen.storyboard */,
@@ -368,10 +426,14 @@
 				7DEDAE5D24E5202100A120CF /* SplashViewController.xib in Resources */,
 				7DEDAE5F24E5210A00A120CF /* bottomImg.jpeg in Resources */,
 				7D50B97E24E50B00003365BA /* vlRootCellRightArrow.png in Resources */,
+				7D053E1D2500959200ED971D /* VLNewsRootViewController.xib in Resources */,
 				7DEDAE8624E5308900A120CF /* NativeDemoTableViewListVC.xib in Resources */,
 				7DEDAE6524E5259000A120CF /* VLBannerViewController.xib in Resources */,
+				7D328A582500981B0043E147 /* NewsViewController.xib in Resources */,
 				7D50B95924E3CBCD003365BA /* LaunchScreen.storyboard in Resources */,
 				7DEDAE8724E5308900A120CF /* nativeNews.json in Resources */,
+				7D053E132500903600ED971D /* VLGameRootViewController.xib in Resources */,
+				7D053E182500947E00ED971D /* VLGameAutoDefineController.xib in Resources */,
 				7DEDAE7124E52BA200A120CF /* VLRewardVideoAdController.xib in Resources */,
 				7D50B95624E3CBCD003365BA /* Assets.xcassets in Resources */,
 				7D50B95424E3CBC7003365BA /* Main.storyboard in Resources */,
@@ -415,18 +477,24 @@
 				7DEDAE8424E5308900A120CF /* NativeDemoTableViewListVC.m in Sources */,
 				7DEDAE7024E52BA200A120CF /* VLRewardVideoAdController.m in Sources */,
 				7DEDAE5C24E5202100A120CF /* SplashViewController.m in Sources */,
+				7D053E122500903600ED971D /* VLGameRootViewController.m in Sources */,
+				7D328A592500981B0043E147 /* NewsOutAdViewController.m in Sources */,
 				7DEDAE6424E5259000A120CF /* VLBannerViewController.m in Sources */,
 				7DEDAE8324E5308900A120CF /* NativeHelper.m in Sources */,
 				7DEDAE7524E52F3800A120CF /* VLNativeRootViewController.m in Sources */,
 				7DEDAE9524E5333100A120CF /* DrawNativeViewController.m in Sources */,
+				7D053E172500947E00ED971D /* VLGameAutoDefineController.m in Sources */,
 				7D50B97624E503CA003365BA /* VLBaseViewController.m in Sources */,
 				7DEDAE9424E5333100A120CF /* DrawAdCell.m in Sources */,
 				7DEDAE6A24E527A000A120CF /* VLInterstitialAdController.m in Sources */,
+				7D053E1C2500959200ED971D /* VLNewsRootViewController.m in Sources */,
 				7D50B98324E50C66003365BA /* VLSplashRootController.m in Sources */,
 				7DEDAE8524E5308900A120CF /* NativeNewsNormalModel.m in Sources */,
 				7DEDAE9C24E533C000A120CF /* VLNContentViewController.m in Sources */,
+				7D328A5A2500981B0043E147 /* NewsOutAdViewController2.m in Sources */,
 				7DEDAE8C24E530CA00A120CF /* VLNativeViewController.m in Sources */,
 				7DEDAE8824E5308900A120CF /* NativeNewsNormalCell.m in Sources */,
+				7D328A572500981B0043E147 /* NewsViewController.m in Sources */,
 				7D50B97A24E504BE003365BA /* VLRootViewCell.m in Sources */,
 				7D50B95C24E3CBCD003365BA /* main.m in Sources */,
 				7D50B97324E5036B003365BA /* AppDelegate.m in Sources */,

@@ -20,6 +20,17 @@ typedef NS_ENUM(NSInteger, VLPolyAdSDKType) {
     VLPolyAdSDKTypeNewsPage       /// 瑞狮新闻资讯
 };
 
+typedef NS_ENUM(NSInteger, RSGameLoadType) {
+    RSGameLoadTypeDefault,///直接加载瑞狮小游戏
+    RSGameLoadTypeAutoDefine///用户自定义加载游戏列表页面
+};
+
+typedef NS_ENUM(NSInteger, RSNewsLoadType) {
+    RSNewsLoadTypeDefault,///SDK自动加载广告
+    RSNewsLoadTypeUsVlAd,///-使用瑞狮广告自定义广告
+    RSNewsLoadTypeUsThirdAd///使用您自己的广告
+};
+
 #define kVLRootViewControllerAdTypeKey @"kVLRootViewControllerAdTypeKey"
 #define kVLRootViewControllerAdNameKey @"kVLRootViewControllerAdNameKey"
 

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsViewController">
+            <connections>
+                <outlet property="navH" destination="xHn-fR-sg5" id="bNA-mP-Twn"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rFy-FB-HNw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sDv-4W-XTn">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新闻SDK内部自己加载广告" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdU-1I-5GG">
+                            <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="ElV-5E-nPx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YO-cI-8qS">
+                            <rect key="frame" x="0.0" y="44" width="70" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="Fid-FQ-Qk2"/>
+                                <constraint firstAttribute="height" constant="44" id="wMB-wH-xHF"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                            <state key="normal" title="返回">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="btn_back:" destination="-1" eventType="touchUpInside" id="0WT-aS-KlA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.57647058819999997" green="0.77647058820000003" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="VdU-1I-5GG" secondAttribute="trailing" id="QLM-mQ-VfX"/>
+                        <constraint firstAttribute="bottom" secondItem="VdU-1I-5GG" secondAttribute="bottom" id="aqg-hV-Tio"/>
+                        <constraint firstItem="VdU-1I-5GG" firstAttribute="leading" secondItem="sDv-4W-XTn" secondAttribute="leading" id="ehh-bi-5ux"/>
+                        <constraint firstAttribute="bottom" secondItem="5YO-cI-8qS" secondAttribute="bottom" id="lAV-Tp-1MX"/>
+                        <constraint firstItem="5YO-cI-8qS" firstAttribute="leading" secondItem="sDv-4W-XTn" secondAttribute="leading" id="pqH-cB-jPV"/>
+                        <constraint firstAttribute="height" constant="88" id="xHn-fR-sg5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="sDv-4W-XTn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2Ua-PN-5ij"/>
+                <constraint firstItem="sDv-4W-XTn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Rls-rZ-h7j"/>
+                <constraint firstAttribute="trailing" secondItem="sDv-4W-XTn" secondAttribute="trailing" id="rb9-nb-ki7"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="137"/>
+        </view>
+    </objects>
+</document>

@@ -9,36 +9,29 @@
 #import "VLNContentViewController.h"
 #import <VLionADSDK/VLNADSDK.h>
 
-@interface VLNContentViewController ()<UIGestureRecognizerDelegate>
+@interface VLNContentViewController ()
 @property (nonatomic, strong) VLNContent *vlContent;
 @end
 
 @implementation VLNContentViewController
 
-- (void)dealloc
-{
-    
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     __weak VLNContentViewController *wSelf = self;
-    self.vlContent = [[VLNContent alloc] initWithTagId:@"25983" compeleteBlock:^(UIViewController * _Nonnull viewController, NSError * _Nonnull error) {
+    self.vlContent = [[VLNContent alloc] initWithTagId:@"25983"
+                                        compeleteBlock:^(UIViewController * _Nonnull viewController, NSError * _Nonnull error) {
         if (!error) {
             [wSelf addChildViewController:wSelf.vlContent.viewController];
             [wSelf.view addSubview:wSelf.vlContent.viewController.view];
             wSelf.vlContent.viewController.view.frame = UIScreen.mainScreen.bounds;
         }
+        else {
+            NSLog(@"加载失败--------%@", error);
+        }
     }];
     
     
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    
-    self.navigationController.interactivePopGestureRecognizer.delegate = self;
 }
 
 

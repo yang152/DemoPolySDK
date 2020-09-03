@@ -16,6 +16,8 @@
 #import "VLNativeRootViewController.h"
 #import "DrawNativeViewController.h"
 #import "VLNContentViewController.h"
+#import "VLGameRootViewController.h"
+#import "VLNewsRootViewController.h"
 
 @interface VLRootViewController ()
 <UITableViewDelegate, UITableViewDataSource>
@@ -61,7 +63,7 @@
       kVLRootViewControllerAdNameKey : @"Draw广告"},
     
     @{kVLRootViewControllerAdTypeKey : @(VLPolyAdSDKTypeContent),
-      kVLRootViewControllerAdNameKey : @"内容和Draw广告混合"},
+      kVLRootViewControllerAdNameKey : @"短视频内容"},
     
     @{kVLRootViewControllerAdTypeKey : @(VLPolyAdSDKTypeSmallGame),
       kVLRootViewControllerAdNameKey : @"小游戏"},
@@ -118,6 +120,20 @@
             case VLPolyAdSDKTypeContent:
         {
             VLNContentViewController *vc = [VLNContentViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        case VLPolyAdSDKTypeSmallGame:
+        {
+            VLGameRootViewController *vc = [VLGameRootViewController new];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        case VLPolyAdSDKTypeNewsPage:
+        {
+            VLNewsRootViewController *vc = [VLNewsRootViewController new];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
