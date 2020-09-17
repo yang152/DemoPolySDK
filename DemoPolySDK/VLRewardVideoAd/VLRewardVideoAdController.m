@@ -38,15 +38,20 @@
 }
 
 #pragma mark --VLNRewardedVideoAdDelegate
+
+- (void)vl_rewardVideoAdReadyToShow:(VLNRewardedVideoAd *)rewardedVideoAd {
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+    self.showButton.enabled = YES;
+    self.showButton.backgroundColor = [UIColor blueColor];
+    NSLog(@"激励视频可以展示");
+}
+
 - (void)vl_rewardVideoAdDidLoad:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"数据加载成功");
 }
 
 - (void)vl_rewardVideoAdVideoDidLoad:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频加载成功");
-    [MBProgressHUD hideHUDForView:self.view animated:YES];
-    self.showButton.enabled = YES;
-    self.showButton.backgroundColor = [UIColor blueColor];
 }
 
 - (void)vl_rewardVideoAdWillVisible:(VLNRewardedVideoAd *)rewardedVideoAd {
@@ -59,6 +64,9 @@
 
 - (void)vl_rewardVideoAdDidClose:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频关闭");
+    self.showButton.backgroundColor = [UIColor lightGrayColor];
+    self.showButton.enabled = NO;
+    [self.rewardVideoAd loadAd];
 }
 
 - (void)vl_rewardVideoAdDidClicked:(VLNRewardedVideoAd *)rewardedVideoAd {

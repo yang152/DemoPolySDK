@@ -10,7 +10,7 @@
 #import <VLionNewsSDK/VLionNewsSDK.h>
 #import <BUAdSDK/BUAdSDK.h>
 
-@interface NewsOutAdViewController2 ()<UIGestureRecognizerDelegate, VlionAdPageViewDelegate, BUNativeExpressAdViewDelegate>
+@interface NewsOutAdViewController2 ()<UIGestureRecognizerDelegate, VlionAdPageViewAdDataSource, BUNativeExpressAdViewDelegate>
 @property (nonatomic, strong) NSMutableDictionary <NSString *, BUNativeExpressAdManager *>*adManagers;
 @property (nonatomic, strong) NSMutableDictionary <NSString *, VLNewsAdInfoModel *>*pageMs;
 
@@ -32,7 +32,7 @@
     self.pageMs = [NSMutableDictionary dictionary];
     
     VlionAdPageView *view = [[VlionAdPageView alloc] initWithFrame:self.view.bounds media:@"730" submedia:@"1009" currentVC:self];
-    view.delegate = self;
+    view.adSource = self;
     [self.view addSubview:view];
     self.pageView = view;
 
