@@ -371,8 +371,6 @@
 				7D50B94224E3CBC7003365BA /* Sources */,
 				7D50B94324E3CBC7003365BA /* Frameworks */,
 				7D50B94424E3CBC7003365BA /* Resources */,
-				44E2BF2EE408093486EA0B77 /* [CP] Embed Pods Frameworks */,
-				2E5F5C90E21306FA64DAD455 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -448,40 +446,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E5F5C90E21306FA64DAD455 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		44E2BF2EE408093486EA0B77 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		555D3168358F62CD4CD3656A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

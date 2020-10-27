@@ -1,6 +1,0 @@
-framework module VLionADSDKIMBAdapter {
-  umbrella header "VLionADSDKIMBAdapter.h"
-
-  export *
-  module * { export * }
-}
