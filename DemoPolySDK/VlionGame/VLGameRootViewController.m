@@ -56,7 +56,7 @@
     switch (sdkAdType) {
         case RSGameLoadTypeDefault:
             {
-                RSGameListViewController *vc = [[RSGameListViewController alloc] initWithMediaId:@"45"];
+                RSGameListViewController *vc = [[RSGameListViewController alloc] initWithMediaId:@"93"];
                 [self.navigationController pushViewController:vc animated:YES];
             }
             break;

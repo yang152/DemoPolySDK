@@ -1,0 +1,6 @@
+framework module VLionADSDKKSAdapter {
+  umbrella header "VLionADSDKKSAdapter.h"
+
+  export *
+  module * { export * }
+}

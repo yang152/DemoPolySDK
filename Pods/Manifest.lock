@@ -1,0 +1,110 @@
+PODS:
+  - BaiduMobAd_SDK (4.69)
+  - Bytedance-UnionAD (3.2.6.2)
+  - GDTMobSDK (4.11.11):
+    - GDTMobSDK/GDTMobSDK (= 4.11.11)
+  - GDTMobSDK/GDTMobSDK (4.11.11)
+  - InMobiSDK-China (7.4.7)
+  - MBProgressHUD (1.2.0)
+  - MintegralAdSDK (6.6.5.1):
+    - MintegralAdSDK/NativeAd (= 6.6.5.1)
+  - MintegralAdSDK/BannerAd (6.6.5.1):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/InterstitialVideoAd (6.6.5.1):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (6.6.5.1)
+  - MintegralAdSDK/NativeAdvancedAd (6.6.5.1):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (6.6.5.1):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (6.6.5.1):
+    - MintegralAdSDK/NativeAd
+  - MJRefresh (3.5.0)
+  - RSPodKSAdaper (3.3.5.1)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - SigmobAd-iOS (2.22.0)
+  - Toast (4.0.0)
+  - VLionAdSDKPoly/RSGameVlionAd (3.7.9.2):
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKBDAdapter (3.7.9.2):
+    - BaiduMobAd_SDK
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKBUAdapter (3.7.9.2):
+    - Bytedance-UnionAD
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKGDTAdapter (3.7.9.2):
+    - GDTMobSDK
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKIMBAdapter (3.7.9.2):
+    - InMobiSDK-China (~> 7.4.3)
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKJDAdapter (3.7.9.2):
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKKSAdapter (3.7.9.2):
+    - RSPodKSAdaper
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionADSDKMGTAdapter (3.7.9.2):
+    - MintegralAdSDK
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAdvancedAd
+    - MintegralAdSDK/RewardVideoAd
+    - MintegralAdSDK/SplashAd
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionAdSDKPoly (3.7.9.2)
+  - VLionAdSDKPoly/VLionADSDKSGBAdapter (3.7.9.2):
+    - SigmobAd-iOS
+    - VLionAdSDKPoly/VLionAdSDKPoly
+  - VLionAdSDKPoly/VLionNewsSDK (3.7.9.2):
+    - MJRefresh
+    - VLionAdSDKPoly/VLionAdSDKPoly
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - SDWebImage
+  - Toast
+  - VLionAdSDKPoly/RSGameVlionAd
+  - VLionAdSDKPoly/VLionADSDKBDAdapter
+  - VLionAdSDKPoly/VLionADSDKBUAdapter
+  - VLionAdSDKPoly/VLionADSDKGDTAdapter
+  - VLionAdSDKPoly/VLionADSDKIMBAdapter
+  - VLionAdSDKPoly/VLionADSDKJDAdapter
+  - VLionAdSDKPoly/VLionADSDKKSAdapter
+  - VLionAdSDKPoly/VLionADSDKMGTAdapter
+  - VLionAdSDKPoly/VLionADSDKSGBAdapter
+  - VLionAdSDKPoly/VLionNewsSDK
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - BaiduMobAd_SDK
+    - Bytedance-UnionAD
+    - GDTMobSDK
+    - InMobiSDK-China
+    - MBProgressHUD
+    - MintegralAdSDK
+    - MJRefresh
+    - RSPodKSAdaper
+    - SDWebImage
+    - SigmobAd-iOS
+    - Toast
+    - VLionAdSDKPoly
+
+SPEC CHECKSUMS:
+  BaiduMobAd_SDK: b82e7f975113d2d66c8801cc20fb5915230c4827
+  Bytedance-UnionAD: ee419a461654e1c2338b5f6b0b2224617b230640
+  GDTMobSDK: 5603f2ed5c565f798b9dd13d3dbfb582594ea93a
+  InMobiSDK-China: b79559d5c198df34003a9409071457b489942492
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MintegralAdSDK: ec6c5c2f775d7ffa4c631cf9538897fcf1ca823b
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  RSPodKSAdaper: 5067aef7f1f260065a8b5d6f32e0d97186ac4d03
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SigmobAd-iOS: eef25c50cc67e0fa0af2e62ede2b5baa5dc261e1
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  VLionAdSDKPoly: 4bb13a4fbeca012b5f0b763b04d1ace58712a604
+
+PODFILE CHECKSUM: 93c93489f712c1fb8fab837875cb114287f1af24
+
+COCOAPODS: 1.10.0.beta.2

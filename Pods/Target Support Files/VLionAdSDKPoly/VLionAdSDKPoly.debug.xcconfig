@@ -1,0 +1,16 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/VLionAdSDKPoly
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_ROOT}/BaiduMobAd_SDK/SDK" "${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks" "${PODS_ROOT}/InMobiSDK-China" "${PODS_ROOT}/MintegralAdSDK/Fmk" "${PODS_ROOT}/RSPodKSAdaper" "${PODS_ROOT}/SigmobAd-iOS/Sigmob" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/RSGameVlionAd" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDK" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKBDAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKBUAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKGDTAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKIMBAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKJDAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKKSAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKMGTAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKSGBAdapter" "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionNewsSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -framework "AVFoundation" -framework "AVKit" -framework "Accelerate" -framework "AdSupport" -framework "AssetsLibrary" -framework "AudioToolBox" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreServices" -framework "CoreTelephony" -framework "Foundation" -framework "ImageIO" -framework "KSAdSDK" -framework "MapKit" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "Photos" -framework "QuartzCore" -framework "QuickLook" -framework "SafariServices" -framework "Security" -framework "Social" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -weak_framework "Foundation" -weak_framework "UIKit" -weak_framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/VLionAdSDKPoly
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+VALID_ARCHS = armv7 armv7s x86_64 arm64
+skip_validation = true

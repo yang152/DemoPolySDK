@@ -57,23 +57,18 @@
 - (void)vl_rewardVideoAdWillVisible:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频将要展示");
 }
-
 - (void)vl_rewardVideoAdDidExposed:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频曝光");
 }
-
 - (void)vl_rewardVideoAdDidClose:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频关闭");
     self.showButton.backgroundColor = [UIColor lightGrayColor];
     self.showButton.enabled = NO;
     [self.rewardVideoAd loadAd];
 }
-
 - (void)vl_rewardVideoAdDidClicked:(VLNRewardedVideoAd *)rewardedVideoAd {
     NSLog(@"视频点击");
 }
-
-
 - (void)vl_rewardVideoAd:(VLNRewardedVideoAd *)rewardedVideoAd didFailWithError:(NSError *)error {
     NSLog(@"出错");
     [MBProgressHUD hideHUDForView:self.view animated:YES];
