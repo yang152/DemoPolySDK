@@ -1,7 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-DemoPolySDK/Pods-DemoPolySDK-resources.sh
 ${PODS_ROOT}/BaiduMobAd_SDK/SDK/baidumobadsdk.bundle
 ${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle
-${PODS_ROOT}/SigmobAd-iOS/Sigmob/Sigmob.bundle
+${PODS_ROOT}/SigmobAd-iOS/WindSDK/Sigmob.bundle
 ${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/RSGameVlionAd/RSGameVlionAd.bundle
 ${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKJDAdapter/JADYun.bundle
 ${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDK/VLionAdImg.bundle
