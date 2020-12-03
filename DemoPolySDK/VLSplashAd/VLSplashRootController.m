@@ -30,7 +30,6 @@
 /// 直接加载开屏广告
 - (IBAction)btn_loadAndShowSplash:(id)sender {
     VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
-    splashAd.backgroundImage = [UIImage imageNamed:@"vlSplashBj.jpg"];
     [splashAd loadAdAndShowInWindow:self.view.window];
     self.splashAd = splashAd;
 }

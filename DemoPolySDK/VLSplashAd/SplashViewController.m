@@ -94,7 +94,7 @@
 }
 
 - (void)showWithSplashAd:(VLNSplashAd *)splashAd {
-    [splashAd showWithViewController:self bottomView:self.bottomView skipView:self.skipView];
+//    [splashAd showWithViewController:self bottomView:self.bottomView skipView:self.skipView];
 }
 
 
@@ -104,7 +104,7 @@
  开屏广告成功展示.
  */
 - (void)vl_splashAdDidLoad:(VLNSplashAd *)splashAd {
-    [self.splashAd showWithViewController:self bottomView:self.bottomView skipView:self.skipView exposureDuration:self.scheduledTime];
+//    [self.splashAd showWithViewController:self bottomView:self.bottomView skipView:self.skipView exposureDuration:self.scheduledTime];
 }
 
 /**
