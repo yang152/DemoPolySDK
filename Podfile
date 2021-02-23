@@ -1,4 +1,3 @@
-#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
 target 'DemoPolySDK' do
@@ -7,12 +6,6 @@ target 'DemoPolySDK' do
   pod 'VLionAdSDKPoly/VLionADSDKBUAdapter'
   pod 'VLionAdSDKPoly/VLionADSDKGDTAdapter'
   pod 'VLionAdSDKPoly/VLionADSDKKSAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKBDAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKJDAdapter'
-
-  pod 'VLionAdSDKPoly/VLionADSDKIMBAdapter'
-  pod 'VLionAdSDKPoly/VLionADSDKSGBAdapter'
-  #pod 'VLionAdSDKPoly/VLionADSDKMGTAdapter'
   pod 'VLionAdSDKPoly/VLionADSDKJDAdapter'
 
   pod 'VLionAdSDKPoly/RSGameVlionAd'

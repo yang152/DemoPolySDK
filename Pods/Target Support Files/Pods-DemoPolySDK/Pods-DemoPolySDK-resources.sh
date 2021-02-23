@@ -97,17 +97,13 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/BaiduMobAd_SDK/SDK/baidumobadsdk.bundle"
   install_resource "${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle"
-  install_resource "${PODS_ROOT}/SigmobAd-iOS/WindSDK/Sigmob.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/RSGameVlionAd/RSGameVlionAd.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKJDAdapter/JADYun.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDK/VLionAdImg.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/BaiduMobAd_SDK/SDK/baidumobadsdk.bundle"
   install_resource "${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle"
-  install_resource "${PODS_ROOT}/SigmobAd-iOS/WindSDK/Sigmob.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/RSGameVlionAd/RSGameVlionAd.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDKJDAdapter/JADYun.bundle"
   install_resource "${PODS_ROOT}/VLionAdSDKPoly/VLionAdSDKPoly/VLionADSDK/VLionAdImg.bundle"

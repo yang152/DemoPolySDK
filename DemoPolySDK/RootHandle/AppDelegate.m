@@ -11,6 +11,7 @@
 
 @interface AppDelegate ()<VLNSplashAdDelegate>
 @property (nonatomic, strong) VLNSplashAd *splashAd;
+@property (nonatomic, strong) UIView *bView;
 
 @end
 
@@ -21,7 +22,7 @@
     
     [[VLNAdSDKManager defaultManager] setAppID:@"30164"];
     
-    VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799"];
+    VLNSplashAd *splashAd = [[VLNSplashAd alloc] initWithTagId:@"23799" bottomView:self.bView];
     splashAd.delegate = self;
     [splashAd loadAd];
     self.splashAd = splashAd;
@@ -68,5 +69,15 @@
 - (void)vl_splashAdWillClose:(VLNSplashAd *)splashAd {
     NSLog(@"开屏广告将要关闭");
 }
+
+- (UIView *)bView {
+    if (!_bView) {
+        _bView = [UIView new];
+        _bView.backgroundColor = UIColor.redColor;
+        _bView.frame = CGRectMake(0, UIScreen.mainScreen.bounds.size.height - UIScreen.mainScreen.bounds.size.width/3, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.width/3);
+    }
+    return _bView;
+}
+
 
 @end
